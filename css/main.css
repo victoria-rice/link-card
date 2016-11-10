@@ -1,3 +1,15 @@
 *, *::before, *::after {
   box-sizing: inherit;
 }
+
+.html {
+  background-color: #c9b5ab;
+  line-height: 1.5;
+  font-family: "PT Serif", serif;
+  max-width: 608px;
+  font-style: normal;
+}
+
+.btn {
+  color: #333;
+}
