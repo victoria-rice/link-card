@@ -1,7 +1,7 @@
 html {
   box-sizing: border-box;
   font-family: Georgia;
-  background-color: #512200;
+  background-color: #cabdb2;
   font-style: normal;
 }
 
@@ -14,25 +14,32 @@ html {
   background-color: #cabdb2;
   border: 3px 2px;
   border-color: #9a816d;
-}
-
-h2 {
-  font-family: "Dosis", sans-serif;
-}
-
-.link-card {
-  background-color: #512200;
+  color: #512200;
 }
 
 .link-card:hover {
   background-color: #cabdb2;
 }
 
-.btn {
-  color: #333;
+h2 {
+  font-family: "Dosis", sans-serif;
 }
 
-.div {
+nav dd {
+  font-style: italic;
+}
+
+div {
   display: inline-block;
+}
+
+.btn {
+  color: #fff;
   background-color: #785439;
+  font: sans-serif;
+  text-decoration: none;
+  display: inline-block;
+  padding: .4em .75em .5em;
+  border-radius: 8px;
+  font-size: 1.125rem;
 }
