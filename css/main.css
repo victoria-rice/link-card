@@ -1,25 +1,38 @@
+html {
+  box-sizing: border-box;
+  font-family: Georgia;
+  background-color: #512200;
+  font-style: normal;
+}
+
 *, *::before, *::after {
   box-sizing: inherit;
 }
 
-.html {
-  font-family: Georgia;
-  background-color: #785439;
-  font-style: normal;
+.link-card {
+  text-decoration: none;
+  background-color: #cabdb2;
+  border: 3px 2px;
+  border-color: #9a816d;
 }
 
 h2 {
-  font-family: 'Dosis', sans-serif;
+  font-family: "Dosis", sans-serif;
 }
 
 .link-card {
-  background-color: #785439
+  background-color: #512200;
 }
 
 .link-card:hover {
-  background-color: #cabdb2
+  background-color: #cabdb2;
 }
 
 .btn {
   color: #333;
+}
+
+.div {
+  display: inline-block;
+  background-color: #785439;
 }
