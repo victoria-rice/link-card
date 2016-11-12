@@ -13,8 +13,6 @@ html {
 body {
   background-color: #dcd4cd;
   padding: .4em .75em .5em;
-  border: 3px 2px;
-  border-color: #9a816d;
 }
 
 .link-card {
@@ -23,6 +21,8 @@ body {
   margin: 0;
   padding: 0;
   list-style-type: none;
+  border: 3px 2px;
+  border-color: #9a816d;
 }
 
 .link-card:hover {
@@ -34,23 +34,31 @@ body {
 }
 
 .link-card dl {
-
+ margin: 1em;
 }
 
 .link-card dd {
   font-style: italic;
+  display: inline-block;
+  min-width: 9em;
+}
+
+.link-card dt {
+  display: inline-block;
+  width: 6em;
 }
 
 header {
-  line-height: 1.5rem;
+  line-height: 1.5em;
 }
 
 hr {
   color: #9a816d;
+  height: 4px;
 }
 
-div {
-  display: inline-block;
+.link-card div {
+  text-align: center;
   margin: 1rem 1rem;
 }
 
