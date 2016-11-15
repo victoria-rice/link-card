@@ -1,9 +1,10 @@
 html {
   box-sizing: border-box;
-  font-family: Georgia;
+  font-family: Georgia, "Dosis", sans-serif;
   background-color: #f0eee8;
   font-style: normal;
   max-width: 400px;
+  min-width: 400px;
   line-height: 1.5rem;
 }
 
@@ -43,9 +44,9 @@ section {
 }
 
 .link-card dl {
- margin: 1em;
- display: block;
- font-size: .875rem;
+  margin: 1em;
+  display: block;
+  font-size: .875rem;
 }
 
 .link-card dd {
@@ -59,22 +60,23 @@ section {
   width: 6em;
 }
 
-hr {
-  color: #9a816d;
-  height: 4px;
-}
-
-.link-card div {
+.link-card div.button {
   text-align: center;
-  margin: 1rem 1rem;
+  margin: 1rem;
 }
 
-.btn {
+a.link-card div.list {
+  border-top: 2px solid #9a816d;
+  border-bottom: 2px solid #9a816d;
+}
+
+a.btn {
   color: #fff;
   background-color: #785439;
-  font: sans-serif;
   text-decoration: none;
   padding: .4em .75em .5em;
   border-radius: 8px;
   font-size: 1.125rem;
+  font-family: "Dosis", sans-serif;
+  margin:
 }
